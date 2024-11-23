@@ -1,0 +1,51 @@
+D:.
+│  基于容量-8822文件夹说明
+├─对比解耦(使用解耦算法来进行对比,解耦算法可自查论文(知网上很多论文都有) + uitls_8822_capacity.py中的decoupledSelection_8822的注释)
+│  │  ResNet容量2(101022).py
+│  │  uitls_8822_capacity.py(工具函数文件)
+│  │  解耦算法1-8822-capacity.py(解耦算法,p=10)
+│  │  解耦算法2-8822-capacity.py(解耦算法,p=20)
+│  │  解耦算法3-8822-capacity.py(解耦算法,p=30)
+│  │  解耦算法4-8822-capacity.py(解耦算法,p=40)
+│  │  解耦算法5-8822-capacity.py(解耦算法,p=50)
+│  │
+│  └─__pycache__
+│          uitls_8822_capacity.cpython-36.pyc
+│
+├─最优标签
+│  │  1111.py
+│  │  AlexNet容量.py
+│  │  KNN容量.py
+│  │  LetNet容量.py
+│  │  ResNet容量(大数据量40w)(返修版本).py
+│  │  ResNet容量(大数据量60w)(返修版本).py
+│  │  ResNet容量(第一次投稿版本).py
+│  │  ResNet容量(DSP返修版本).py
+│  │  RNN容量.py
+│  │  SVM.py
+│  │  uitls_8822_capacity.py
+│  │  VGG容量.py
+│  │  测试.py
+│  │  范数容量 数学优化.py
+│  │  获取最优ES_Capacity(大数据量).py
+│  │  获取最优ES_Capacity.py
+│  │  随机选择算法.py
+│  │
+│  └─__pycache__
+│          uitls_8822_capacity.cpython-36.pyc
+│
+└─次优标签
+    │  ResNet-suboptimal-8822.py (手动更改p和数据集位置跑了p=10, 20, 30, 40, 50五种结果)(数值信噪比)
+    │  uitls_8822_capacity.py(工具函数文件)
+    │  生成次优标签JTRAS1-8822.py(生成次优标签,p=10)
+    │  生成次优标签JTRAS2-8822.py(生成次优标签,p=20)
+    │  生成次优标签JTRAS3-8822.py(生成次优标签,p=30)
+    │  生成次优标签JTRAS4-8822.py(生成次优标签,p=40)
+    │  生成次优标签JTRAS5-8822.py(生成次优标签,p=50)
+    │  JTRAS次优天线选择算法详见   MIMO系统联合天线选择算法(郎保才)
+    │  硕士论文有个小节专门提到了Blum的 A Near-Optimal Joint Transmit and Receive Antenna Selection Algorithm for MIMO System
+    │  可以去SCIhub自己下
+    │  根据硕士论文里面的小节复现的(我只复现了8822和101022的, 8833没复现成功, 以前有跟老师说过)
+    │
+    └─__pycache__
+            uitls_8822_capacity.cpython-36.pyc
